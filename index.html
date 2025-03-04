@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajveer Bairagi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Rajveer's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#Aboutme">About</a></li>
+                    <li><a href="#Contactme">Contact Me</a></li>
+                    <li><a
+                            href="https://drive.google.com/drive/folders/1E3ZkUq4dCnJgpLWUnr4arxRSre8ahYW5?usp=sharing">Portfolio</a>
+                    </li>
+                    <li><a href="mailto:your-rajveerbairagi9@gmail.com">Email</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, my name is <span class="purple">Rajveer Bairagi</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn"><a href="">Download Resume</a></button>
+                    <button class="btn"><a href="https://github.com/rajveerbairagi">Visit Github</a></button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <model-viewer id="threed" src="./bald_eagle.glb" autoplay camera-controls disable-zoom auto-rotate
+                    shadow-intensity="">
+
+                </model-viewer>
+                <script type="module"
+                    src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <h1>About me</h1>
+            <div class="leftSectiion">
+                <img src="my.png" alt="Photo">
+            </div>
+            <div class="rightSectiion">
+                I was born and raised in Satna and have been living in Bhopal since September 2024. I’m currently
+                pursuing a Bachelor of Technology in Computer Science Engineering (Data Science) from the School of
+                Information Technology, University Teaching Department, Rajiv Gandhi Technological University, Bhopal.
+                Alongside, I’m also enrolled in a Bachelor of Science in Data Science from IIT Madras through hybrid
+                mode.
+
+                I am highly interested in Video Editing, Web Development, and Data Structures & Algorithms, always
+                looking forward to learning new technologies. I'm skilled in C++ and always on the go to learn more. I
+                also like designing on Canva and turning creative ideas into reality.
+
+                Aside from technology, I am really passionate about Videography & Photography, freezing time and telling
+                stories through visuals. Beyond this, I love traveling and discovering new experiences.
+            </div>
+            <div>
+
+            </div>
+        </section>
+
+
+    </main>
+    <hr id="formhr">
+    <section class="contact-form">
+        <h2>Contact Me</h2>
+        <form action="submit_form.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Rajveer's developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li style="color: #e9d2a9;">Let's Connect</li>
+                    <li><a href="https://www.instagram.com/rajveer_051/">Instagram</a></li>
+                    <li><a href="https://x.com/rajveer_051">Twitter</a></li>
+                    <li><a href="https://Wa.me/+918219334378">Whatsapp</a></li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li style="color: #e9d2a9;">Platforms</li>
+                    <li><a href="https://gdp-livid.vercel.app/">GDP</a></li>
+                    <li><a href="https://ink-space-omega.vercel.app/">InkSpace</a></li>
+                    <li><a href="">Comming Soon</a></li>
+                </ul>
+            </div>
+            <div class="footer-forth">
+                <ul>
+                    <li style="color: #e9d2a9;">Professional Links</li>
+                    <li><a href="https://www.linkedin.com/in/rajveerbairagi/">LinkedIn</a></li>
+                    <li><a href="https://github.com/rajveerbairagi">Github</a></li>
+                    <li><a href="/">Resume</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; rajveerbairagi.in | All rights reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Video Editor', 'Graphic Desiner', 'Social Media Marketer', 'Web Developer', 'Video Editor', 'Graphic Desiner', 'Social Media Marketer', 'Web Developer', 'Video Editor', 'Graphic Desiner', 'Social Media Marketer', 'Web Developer', 'Video Editor', 'Graphic Desiner', 'Social Media Marketer', 'Web Developer', 'Video Editor', 'Graphic Desiner', 'Social Media Marketer', 'Web Developer'],
+            typeSpeed: 150,
+        });
+    </script>
+
+
+</body>
+
+</html>

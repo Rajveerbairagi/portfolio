@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(53, 47, 39);
+    color: white;
+    font-family: "Poppins", sans-serif;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color: rgb(87, 81, 74);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+nav ul li a:hover {
+    color: rgb(67, 52, 45);
+    font-size: 1.05rem;
+}
+
+main hr {
+    border: 0;
+    background-color: rgb(226, 174, 153);
+    height: 1.2px;
+    margin: 150px 25px;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 50px;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.firstSection>div {
+    width: 60%;
+
+}
+
+.leftSection {
+    font-size: 3rem;
+}
+
+.leftSection .buttons {
+    padding: 30px;
+}
+
+.leftSection .btn {
+    padding: 12px;
+    background-color: #1e1a1a;
+    color: aliceblue;
+    border: 2px solid aliceblue;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+main button a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.rightSection img {
+    margin: 50px 0;
+    width: 80%;
+}
+
+.purple {
+    color: rgb(179, 179, 80);
+}
+
+#element {
+    color: rgb(179, 179, 80);
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: 150px 60px;
+}
+
+#threed {
+    width: 560px;
+    height: 33svw;
+
+}
+
+/* General Section Styling */
+.secondSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    /* Space between image and text */
+    padding: 50px;
+    background-color: #1e1a1a;
+    /* Dark background */
+    color: white;
+    /* Text color */
+}
+
+/* Heading Styling */
+.secondSection h1 {
+    position: absolute;
+    top: 830px;
+    text-align: center;
+    width: 100%;
+    font-size: 2rem;
+}
+
+/* Left Section (Image) */
+.leftSectiion img {
+    width: 300px;
+    /* Adjust size */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+}
+
+/* Right Section (Text) */
+.rightSectiion {
+    max-width: 50%;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .secondSection {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .leftSectiion img {
+        width: 80%;
+        /* Make image responsive */
+    }
+
+    .rightSectiion {
+        max-width: 90%;
+    }
+}
+
+#formhr {
+    border: 0;
+    background-color: rgb(226, 174, 153);
+    height: 1.2px;
+    margin: 150px 25px;
+}
+
+/* new CSS using Some Help */
+.contact-form {
+    background: #1e1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    max-width: 500px;
+    margin: 110px auto;
+    text-align: center;
+    color: white;
+}
+
+.contact-form h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background: #2e2e2e;
+    color: white;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border: 1px solid #ff9800;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    background: rgb(87, 81, 74);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact-form button:hover {
+    background: #70675b;
+}
+
+/* starts Footer */
+
+footer {
+    background-color:rgb(87, 81, 74);
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+.footer ul {
+    list-style: none;
+
+}
+
+footer ul li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    color: rgb(102, 67, 64);
+    font-size: 1.05rem;
+}
+
+.footer>div {
+    width: 223px;
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: grey;
+    padding: 12px 0;
+}

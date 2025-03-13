@@ -1,3 +1,4 @@
+/* @media (max-width: 1500px) { */
 * {
     margin: 0;
     padding: 0;
@@ -63,6 +64,7 @@ main hr {
 
 .firstSection>div {
     width: 60%;
+    /* margin-top: 30px; */
 
 }
 
@@ -259,3 +261,4 @@ footer .footer-rights {
     color: grey;
     padding: 12px 0;
 }
+/* } */
